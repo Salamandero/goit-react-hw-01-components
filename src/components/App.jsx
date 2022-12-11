@@ -1,21 +1,38 @@
-//for painting.js
+
 
 import user from './jsonData/user.json';
- 
-import { Profile } from "./Profile/Profile";
+import Profile from "./Profile/Profile";
+import Statistics from './Statistics/Statistics';
+import data  from './jsonData/data.json';
+import FriendsList from './FriendList/FriendsList';
+import friends from "./jsonData/friends.json";
+import TransactionHistory from './Transactions/TransactionHistory';
+import transactions from "./jsonData/transactions.json";
+
+
+import React from 'react';
 
 
 export const App = () => {
   return (
-    <div>
-      <Profile   
+ 
+       <div>
+       <Profile   
   username={user.username}
   tag={user.tag}
   location={user.location}
   avatar={user.avatar}
   stats={user.stats}/>
 
-    </div>
-  );
-};
+     <Statistics
+       title="Upload stats" stats={data}/>
+      
+      <FriendsList friends={friends} />;
+     <TransactionHistory items={transactions} />
+     </div>  
 
+     
+  
+     )}
+
+ 
