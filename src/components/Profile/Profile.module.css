@@ -39,8 +39,8 @@ margin-top: 20px;
 
 background-color: rgba(244, 244, 244, 0.995);
 border-radius: 0 0 4px 4px;
-
 }
+
 .item{
 display: grid;
 align-items: center;
@@ -48,12 +48,18 @@ gap: 4px;
 border: 1px rgb(205, 205, 205) solid;
 width: 100%;
 }
+.item:first-child{
+    border-radius: 0 0 0 4px;
+}
+.item:last-child{
+    border-radius: 0 0 4px 0;
+}
 
 .label{
 margin-top: 15px;
-
 margin-right: auto;
 margin-left: auto;
+color: rgb(122, 122, 122);
 }
 .quantity{
  margin-right: auto;

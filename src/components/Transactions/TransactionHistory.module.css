@@ -1,0 +1,16 @@
+table{
+    margin-top: 40px;
+   
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: #fff;
+    box-shadow: 0 3px 18px rgba(30, 2, 209, 0.9);
+    
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 4px;
+}
+
+
+

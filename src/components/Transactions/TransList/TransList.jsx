@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 import TransOperation from './TransOperation/TransOperation';
-
+import css from "./TransList.module.css";
 
 const TransList = ({transactions}) => {
     return ( <tbody>
         {transactions.map(el => (
-                <tr key={el.id}>
+                <tr key={el.id} >
                 <TransOperation type={el.type} amount={el.amount} currency={el.currency}/>
                 </tr>
         ))

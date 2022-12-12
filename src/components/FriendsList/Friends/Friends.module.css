@@ -1,0 +1,19 @@
+.isOnline{
+margin-left: auto;
+margin-right: auto;
+
+height: 15px;
+width: 15px;
+border-radius: 50%;
+background-color: red;
+
+}
+.avatar{
+    margin-top: 4px;
+    margin-bottom: 4px;
+border-radius: 4px;
+}
+.name{
+    margin-left: 8px;
+    font-weight: 600;
+}
