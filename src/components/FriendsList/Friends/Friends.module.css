@@ -1,4 +1,4 @@
-.isOnline{
+.offline{
 margin-left: auto;
 margin-right: auto;
 
@@ -6,8 +6,17 @@ height: 15px;
 width: 15px;
 border-radius: 50%;
 background-color: red;
-
 }
+.isOnline{
+margin-left: auto;
+margin-right: auto;
+
+height: 15px;
+width: 15px;
+border-radius: 50%;
+background-color: green;
+}
+
 .avatar{
     margin-top: 4px;
     margin-bottom: 4px;
