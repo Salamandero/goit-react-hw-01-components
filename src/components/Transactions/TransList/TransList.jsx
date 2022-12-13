@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import TransOperation from './TransOperation/TransOperation';
-import css from "./TransList.module.css";
+// import css from "./TransList.module.css";
 
 const TransList = ({transactions}) => {
     return ( <><tbody>

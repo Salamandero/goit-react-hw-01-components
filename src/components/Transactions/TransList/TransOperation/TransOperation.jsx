@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from "./TransOperation.module.css";
+// import css from "./TransOperation.module.css";
 
 const TransOperation = ({type, amount, currency}) =>{
     return (<> <td>{type}</td>
