@@ -12,5 +12,50 @@ table{
     border-radius: 4px;
 }
 
+th{
+    font-size: 16px;
+    font-weight: 400;
+        text-align: center;
+        border-collapse: collapse;  
+        padding-top: 8px;
+        padding-bottom: 8px;
+    
+        background-color: rgb(1, 209, 216);
+        color: white;
+        text-transform: uppercase;
+     
+    }
+    th:not(:first-child){
+        border-left: 1px rgb(205, 205, 205) solid;
+    }
+    th:first-child{
+        border-radius: 4px 0 0 0 ;
+    }
+    th:last-child{
+        border-radius: 0 4px 0 0 ;
+    }
+    thead{
+        border-radius: 4px;
+    }
 
 
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr{
+    color: rgb(122, 122, 122);
+}
+
+td{
+    text-align: center;
+    border-collapse: collapse;  
+    padding-top: 8px;
+    padding-bottom: 8px;
+   
+}
+td:nth-child(-n + 3){
+    border-radius: 0 0 4px 4px;
+}
+td:not(:first-child){
+    border-left: 1px rgb(205, 205, 205) solid;
+}
