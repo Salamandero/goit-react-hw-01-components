@@ -1,13 +1,12 @@
-td{
-    text-align: center;
-    border-collapse: collapse;  
-    padding-top: 8px;
-    padding-bottom: 8px;
-   
+td {
+  text-align: center;
+  border-collapse: collapse;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
-td:nth-child(-n + 3){
-    border-radius: 0 0 4px 4px;
+td:nth-child(-n + 3) {
+  border-radius: 0 0 4px 4px;
 }
-td:not(:first-child){
-    border-left: 1px rgb(205, 205, 205) solid;
+td:not(:first-child) {
+  border-left: 1px rgb(205, 205, 205) solid;
 }

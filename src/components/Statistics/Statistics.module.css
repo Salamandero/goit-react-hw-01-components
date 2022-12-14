@@ -1,15 +1,14 @@
-.statistics{
-    padding-top: 20px;
-margin-top: 40px;
-    display: grid;
-    align-items: center;
-   
+.statistics {
+  padding-top: 20px;
+  margin-top: 40px;
+  display: grid;
+  align-items: center;
 
-    border-radius: 4px;
-    max-width: 260px;
-    margin-right: auto;
-    margin-left: auto;
+  border-radius: 4px;
+  max-width: 260px;
+  margin-right: auto;
+  margin-left: auto;
 
-    background-color: #fff;
-    box-shadow: 0 3px 18px rgba(30, 2, 209, 0.9); 
+  background-color: #fff;
+  box-shadow: 0 3px 18px rgba(30, 2, 209, 0.9);
 }
