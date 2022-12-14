@@ -1,25 +1,24 @@
-th{
-font-size: 16px;
-font-weight: 400;
-    text-align: center;
-    border-collapse: collapse;  
-    padding-top: 8px;
-    padding-bottom: 8px;
+th {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  border-collapse: collapse;
+  padding-top: 8px;
+  padding-bottom: 8px;
 
-    background-color: rgb(1, 209, 216);
-    color: white;
-    text-transform: uppercase;
- 
+  background-color: rgb(1, 209, 216);
+  color: white;
+  text-transform: uppercase;
 }
-th:not(:first-child){
-    border-left: 1px rgb(205, 205, 205) solid;
+th:not(:first-child) {
+  border-left: 1px rgb(205, 205, 205) solid;
 }
-th:first-child{
-    border-radius: 4px 0 0 0 ;
+th:first-child {
+  border-radius: 4px 0 0 0;
 }
-th:last-child{
-    border-radius: 0 4px 0 0 ;
+th:last-child {
+  border-radius: 0 4px 0 0;
 }
-thead{
-    border-radius: 4px;
+thead {
+  border-radius: 4px;
 }

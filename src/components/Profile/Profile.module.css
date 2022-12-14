@@ -1,70 +1,70 @@
-.profile{
-    display: grid;
-    align-items: center;
-   
-    padding-top: 20px;
-    border-radius: 4px;
-    max-width: 260px;
-    margin-right: auto;
-    margin-left: auto;
+.profile {
+  display: grid;
+  align-items: center;
 
-    background-color: #fff;
-    box-shadow: 0 3px 18px rgba(30, 2, 209, 0.9);
+  padding-top: 20px;
+  border-radius: 4px;
+  max-width: 260px;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-color: #fff;
+  box-shadow: 0 3px 18px rgba(30, 2, 209, 0.9);
 }
 
-.description{
-    display: grid;
-    grid-template-rows: 6fr 1fr 1fr 1fr; 
-    justify-items: center;   
+.description {
+  display: grid;
+  grid-template-rows: 6fr 1fr 1fr 1fr;
+  justify-items: center;
 }
-.avatar{
-    display: block;
-    max-width: 30%;
-    border-radius: 50%;
-    margin: 40px;
+.avatar {
+  display: block;
+  max-width: 30%;
+  border-radius: 50%;
+  margin: 40px;
 }
-.name{
-font-size: 18px;
-font-weight: 700;
+.name {
+  font-size: 18px;
+  font-weight: 700;
 }
 .tag,
-.location{
-color: rgb(122, 122, 122);
+.location {
+  color: rgb(122, 122, 122);
 }
-.stats{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-justify-items: center;
-margin-top: 20px;
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: 20px;
 
-background-color: rgba(244, 244, 244, 0.995);
-border-radius: 0 0 4px 4px;
-}
-
-.item{
-display: grid;
-align-items: center;
-gap: 4px;
-border: 1px rgb(205, 205, 205) solid;
-width: 100%;
-}
-.item:first-child{
-    border-radius: 0 0 0 4px;
-}
-.item:last-child{
-    border-radius: 0 0 4px 0;
+  background-color: rgba(244, 244, 244, 0.995);
+  border-radius: 0 0 4px 4px;
 }
 
-.label{
-margin-top: 15px;
-margin-right: auto;
-margin-left: auto;
-color: rgb(122, 122, 122);
+.item {
+  display: grid;
+  align-items: center;
+  gap: 4px;
+  border: 1px rgb(205, 205, 205) solid;
+  width: 100%;
 }
-.quantity{
- margin-right: auto;
- margin-left: auto;
+.item:first-child {
+  border-radius: 0 0 0 4px;
+}
+.item:last-child {
+  border-radius: 0 0 4px 0;
+}
 
-margin-bottom: 15px;
-font-weight: 700;
+.label {
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: rgb(122, 122, 122);
+}
+.quantity {
+  margin-right: auto;
+  margin-left: auto;
+
+  margin-bottom: 15px;
+  font-weight: 700;
 }
